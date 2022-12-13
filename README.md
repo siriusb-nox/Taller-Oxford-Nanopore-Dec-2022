@@ -10,3 +10,6 @@ Este tutorial requiere los siguientes programas (dependencias) para correr:
 2. NCBI magicblast (https://ncbi.github.io/magicblast/doc/download.html)
 3. CANU (https://github.com/marbl/canu)
 4. SMARTdenovo (https://github.com/ruanjue/smartdenovo)
+
+## Estructura del tutorial (o pipeline)
+
