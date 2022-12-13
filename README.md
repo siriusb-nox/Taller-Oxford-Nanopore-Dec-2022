@@ -12,7 +12,9 @@ Este tutorial requiere los siguientes programas (dependencias) para correr:
 4. **SMARTdenovo** (https://github.com/ruanjue/smartdenovo): este programa ensambla "de-novo" secuencias corregidas y recortadas de ONT/PacBio.
 5. **NanoPlot** (https://github.com/wdecoster/NanoPlot - version ejecutable en linea: https://nanoplot.bioinf.be/): este programa produce graficas con informaciones asociadas a experimentos de secuenciación conducidos en teconologias ONT 
 
-## Estructura del tutorial/pipeline
-Este tutorial esta dividio en tres pasos principales:
-1. 
+## Estructura del pipeline
+Este tutorial esta dividio en tres pasos principales (Figura 1):
+1. Analisis de la calidad de datos 
+2. Corrección y recorte de los datos 
+3. Operaciones de busqueda y/o ensamblado de genomas
 
