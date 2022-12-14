@@ -41,6 +41,17 @@ Por ejemplo, para cargar los ejecutables de blast+ y canu, ejecutar:
 
 `module load canu`
 
-Adicionalmente, los recursos necesarios para ejecutar programas tambien deberan ser solicitados bajo el mismo sistema SLURM.
+Adicionalmente, los recursos necesarios para ejecutar programas tambien deberan ser solicitados bajo el mismo sistema SLURM. Un ejemplo basico de como solicitar recursos se provee aqui:
+
+`#!/bin/bash
+#SBATCH --job-name=blast+
+#SBATCH --cpus-per-task=4
+#SBATCH --partition=dribe
+#SBATCH --ntasks=1
+#SBATCH --time=72:00:00
+#SBATCH -o result_%N_%j.out      # File to which STDOUT will be written
+#SBATCH -e result_%N_%j.err      # File to which STDERR will be written
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=username@ucr.ac.cr`
 
 
