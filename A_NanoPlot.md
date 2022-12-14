@@ -57,7 +57,7 @@ Top 5 longest reads and their mean basecall quality score
 
 ```
 
-El reporte completo de un experimento de secuenciación conducido usando el ADN de nuestro organismo misterio se encuentra disponible [aqui](https://drive.google.com/file/d/1jPEOJwQUAObTKwK9kZybFwkhUSoayszy/view?usp=share_link). 
+El reporte completo de un experimento de secuenciación conducido usando el ADN de nuestro organismo misterio se encuentra disponible [aqui](https://drive.google.com/file/d/1jPEOJwQUAObTKwK9kZybFwkhUSoayszy/view?usp=share_link), o en la carpeta de este [repositorio](https://github.com/siriusb-nox/Taller-Oxford-Nanopore-Dec-2022/tree/main/NanoPlot) - archivo llamado "summary-plots-log-transformed.zip" (primero descomprimir con `gunzip`). 
 
 ## Literatura recomendada
 1. Delahaye C, Nicolas J. 2021. Sequencing DNA with nanopores: troubles and biases. PLoS ONE https://doi.org/10.1371/journal.pone.0257521
