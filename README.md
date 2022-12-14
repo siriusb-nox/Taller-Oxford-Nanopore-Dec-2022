@@ -25,11 +25,11 @@ Este tutorial esta dividio en tres pasos principales (Figura 1):
 **Figura 1**: Vista simplificada del tutorial/pipeline
 
 ## 2.1. Configuración del pipeline
-Para ejecutar este tutorial, se debe copiar este repositorio en un directorio de su escogencia. Para ello, favor ejecutar
+En cualquier pipeline de bioinformatica, es esencial relacionar de que programas depende el pipeline y saber donde estan los archivos input, etc. Para ejecutar este tutorial, se debe copiar este repositorio en un directorio de su escogencia. Para ello, favor ejecutar:
 
 `git clone https://github.com/siriusb-nox/Taller-Oxford-Nanopore-Dec-2022.git`
 
-En cualquier pipeline de bioinformatica, es esencial relacionar de que programas depende el pipeline. Para usuarios asociados a la Universidad de Costa Rica (UCR) y del Kabré, los programas estarán disponibles como modulos y deben ser llamados usando el sistema SLURM. Pasos detallados de como conectarse al Kabre, como intercambiar datos entre un computador local y el servidor, como solicitar recursos y modulos/programas estan disponibles aqui: https://kabre.cenat.ac.cr/guia-usuario/. 
+**Para usuarios asociados a la Universidad de Costa Rica (UCR) y del Kabré**, los programas necesarios para correr este tutorial estarán disponibles como modulos y deben ser llamados usando el sistema SLURM. Pasos detallados de como conectarse al Kabre, como intercambiar datos entre un computador local y el servidor, como solicitar recursos y modulos/programas estan disponibles aqui: https://kabre.cenat.ac.cr/guia-usuario/. 
 
 Para solicitar los modulos requeridos, ejecutar:
 
@@ -57,7 +57,7 @@ Adicionalmente, los recursos necesarios para ejecutar programas tambien deberan 
 #SBATCH --mail-user=username@ucr.ac.cr
 ```
 
-Para usuarios con los programas instalados en un ambiente UNIX, estos se pueden introducir en la sesión actual (terminal) usando los siguientes comandos, por ejemplo:
+**Para usuarios con los programas instalados en un ambiente UNIX en computadoras personales**, estos se pueden introducir en la sesión actual (terminal) usando los siguientes comandos, por ejemplo:
 
 ```
 # Canu
