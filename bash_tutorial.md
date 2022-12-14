@@ -17,4 +17,37 @@ Las opciones en UNIX son usualmente parametros (en ingles _flags_) que permiten 
 `ls` vs `ls -lrt` - Cual es la diferencia entre ambos comandos?
 
 #### 3. Programas esenciales para navegar la terminal en UNIX e interactuar/visualizar archivos
-Aquí una breve lista de programas basicos de UNIX que utilizaremos con mucha frequencia
+Aquí una breve lista de programas basicos de UNIX que utilizaremos con mucha frequencia:
+
+#### 3.1 `cd`
+"Change directory" se usa para cambiar de una carpeta/directorio a otro. Por ejemplo:
+
+```bash
+$ cd
+```
+Para subir una carpeta arriba, usar. Adicionalmente, 'cd' acpeta una direccion de directorio completa, p.ej:
+```bash
+$ cd ..
+$ cd /home/usr/etc
+```
+
+### b. `mkdir`
+Makes a new directory.  
+```bash
+mkdir dirname
+```
+You can use this to create multiple directories at once within your current directory.
+```bash
+mkdir 1stDirectory 2ndDirectory 3rdDirectory
+```
+You can also use this to create parent directories at the same time. For instance, if you wanted a directory named 'project1' in another subdirectory at '/samples/bash/projects/', you could run:
+```bash 
+mkdir /samples/bash/projects/project1
+```
+If any of these directories did no already exist, they would be created as well.
+
+### c. `pwd`
+Tells you which directory you currently are in.  
+```bash
+pwd
+```
