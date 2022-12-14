@@ -7,13 +7,15 @@ Este repositorio contiene un tutorial guia para el analisis de datos crudos deri
 
 _Este tutorial esta dirigido a personas con un conocimiento basico en programación y esta diseñado para ejecutarse en ambientes UNIX. El participante idealmente debe tener experiencia en uso de terminales, y programas de manejo de archivos de texto como **awk, sed, grep, entre otros.**_ El taller se ejecutará en el servidor [Kabré](https://kabre.cenat.ac.cr/), o en computadores previamente configurados. 
 
+_Para aquellos usuarios con muy poca experiencia (o nula) en programación en ambientes UNIX, un breve tutorial se encuentra disponible aquí_. 
+
 Este tutorial requiere los siguientes programas (dependencias) para correr (es muy recomendable tener estos programas instalados antes de comenzar el tutorial). **Por favor cersiorarse de que las dependencias en que estos programas corren tambien estan disponibles**:
 1. [**NCBI blast:**](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download) Este programa permite la construcción de bases de datos blast, y la busqueda (alineamiento) de secuencias de ADN o AA (formato fasta) en bases de datos blast. 
 2. [**NCBI magicblast:**](https://ncbi.github.io/magicblast/doc/download.html) Este programa permite la busqueda de secuencias de ADN derivadas de secuenciación masiva (formato fasta o fastq) en bases de datos blast.
 3. [**CANU:**](https://github.com/marbl/canu) este programa permite la corrección y filtrado de secuencias de ONT/PacBio.  
 4. [**SMARTdenovo:**](https://github.com/ruanjue/smartdenovo) este programa ensambla "de-novo" secuencias corregidas y recortadas de ONT/PacBio.
 5. [**NanoPlot:**](https://github.com/wdecoster/NanoPlot) Una version ejecutable en linea esta disponible [aquí](https://nanoplot.bioinf.be/); este programa produce graficas con informaciones asociadas a experimentos de secuenciación conducidos en teconologias ONT 
-6. [**guppy:**](https://nanoporetech.com/nanopore-sequencing-data-analysis) Este programa se encarga de llamar las bases a partir de archivos FAST5 generados por ONT. Solo esta disponible para usuarios ONT (esta parte del tutorial, aunque se explicará, no se ejecutara).
+6. [**Guppy:**](https://nanoporetech.com/nanopore-sequencing-data-analysis) Este programa se encarga de llamar las bases a partir de archivos FAST5 generados por ONT. Solo esta disponible para usuarios ONT (esta parte del tutorial, aunque se explicará, no se ejecutara).
 
 ## 2. Estructura del pipeline
 Este tutorial esta dividio en tres pasos principales (Figura 1):
