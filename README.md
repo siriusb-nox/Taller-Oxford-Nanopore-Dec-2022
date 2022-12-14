@@ -18,4 +18,4 @@ Este tutorial esta dividio en tres pasos principales (Figura 1):
 2. Corrección y recorte de los datos 
 3. Operaciones de busqueda y/o ensamblado de genomas
 
-[Figure 1](https://github.com/siriusb-nox/Taller-Oxford-Nanopore-Dec-2022/blob/IMG/pipeline_overview_v0_OP_14122022.jpg?raw=true)
+![Figure 1](https://github.com/siriusb-nox/Taller-Oxford-Nanopore-Dec-2022/blob/IMG/pipeline_overview_v0_OP_14122022.jpg?raw=true)
