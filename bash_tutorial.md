@@ -32,11 +32,11 @@ cd ..
 cd /home/usr/etc
 ```
 
-### b. `mkdir`
+### 3.2 `mkdir`
 Crea nuevas carpetas.  
 
 ```bash
-mkdir dirname
+mkdir carpetanueva
 ```
 Varias carpetas se pueden crear de manera simultanea, p.ej.:
 ```bash
@@ -51,8 +51,22 @@ Carpetas se pueden tambien crear en subdirectorios ya existentes, usando una dir
 mkdir /home/usr/foo/bla/bioinf
 ```
 
-### c. `pwd`
-Tells you which directory you currently are in.  
+### 3.3 `pwd`
+Muestra el directorio en el que uno se encuentra
 ```bash
 pwd
+```
+
+### 3.4 `ls`
+Hace un listado de los archivos o carpetas presentes en un directorio. `ls` tiene muchas opciones... Por ejemplo, la opcion `-l` presenta una lista detallada de los archivos/carpetas, mostrando info como tamaño exacto de los archivos, propietario, acceso, y fecha de modificacion.
+
+```bash
+ls option
+ls -l
+```
+
+### k. `man`
+Shows the manual for specified command.  
+```bash
+man command
 ```
