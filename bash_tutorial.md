@@ -61,11 +61,30 @@ pwd
 Hace un listado de los archivos o carpetas presentes en un directorio. `ls` tiene muchas opciones... Por ejemplo, la opcion `-l` presenta una lista detallada de los archivos/carpetas, mostrando info como tamaño exacto de los archivos, propietario, acceso, y fecha de modificacion.
 
 ```bash
-ls option
+ls
 ls -l
 ```
 
-### k. `man`
+### 3.5 `cat`
+Se usa para visualizar archivos "no binarios", e.g.: 
+* Ver archivos de texto en la terminal
+* Combinar archivos de texto  
+ 
+```bash
+cat archivo.txt
+cat archivo1.txt archivo2.txt
+cat archivo1.txt archivo2.txt > archivocombinado.txt
+cat < archivo1.txt > archivo2.txt
+```
+
+### 3.6 `less`
+Se usa para navigar archivos "no binarios", e.g.: 
+
+```bash
+less archivo.txt
+```
+
+### 3.8. `man`
 Shows the manual for specified command.  
 ```bash
 man command
