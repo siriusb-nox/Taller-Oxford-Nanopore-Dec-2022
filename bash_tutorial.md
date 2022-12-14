@@ -82,7 +82,7 @@ cat < archivo1.txt > archivo2.txt
 Se usa para navigar archivos "no binarios", e.g.: 
 
 ```bash
-less archivo.txt
+less input.txt
 ```
 Por ejempo, `less`puede ser utilizado para dar una mirada rapida a un archivo fastq, asi (archivo disponible en el tutorial, primero descomprimir usando `gunzip`):
 
@@ -91,11 +91,18 @@ cat /directorio/personal/Taller-Oxford-Nanopore-Dec-2022/NGSdat/NGSdat/Cinchona_
 ```
 
 ### d. `grep`
-Este programa busca patrones de texto, incluyendo _[expresiones regulares]_(https://sospedia.net/el-shell-bash-de-gnulinux-4-expresiones-regulares/). 
+Este programa busca patrones de texto, incluyendo [_expresiones regulares_](https://sospedia.net/el-shell-bash-de-gnulinux-4-expresiones-regulares/). 
 
 ```bash
-grep
+grep opcion1 opcion2 input
 ```
+
+Por ejemplo, podemos buscar el nombre de una secuencia ("@7318713f-55b4-4e19-8fb1-4bd89b35568e") en especifico en un archivo fastq asi: 
+
+```bash
+grep "^@7318713f-55b4-4e19-8fb1-4bd89b35568e" /directorio/personal/Taller-Oxford-Nanopore-Dec-2022/NGSdat/NGSdat/Cinchona_PAD61320_sizeSelect_1Kseq_99.fastq
+```
+
 ### 3.8. `man`
 Shows the manual for specified command.  
 ```bash
