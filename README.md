@@ -13,6 +13,7 @@ Este tutorial requiere los siguientes programas (dependencias) para correr (es m
 3. **CANU** (https://github.com/marbl/canu): este programa permite la corrección y filtrado de secuencias de ONT/PacBio.  
 4. **SMARTdenovo** (https://github.com/ruanjue/smartdenovo): este programa ensambla "de-novo" secuencias corregidas y recortadas de ONT/PacBio.
 5. **NanoPlot** (https://github.com/wdecoster/NanoPlot - version ejecutable en linea: https://nanoplot.bioinf.be/): este programa produce graficas con informaciones asociadas a experimentos de secuenciación conducidos en teconologias ONT 
+6. **guppy**: (https://nanoporetech.com/nanopore-sequencing-data-analysis). Este programa se encarga de llamar las bases a partir de archivos FAST5 generados por ONT. Solo esta disponible para usuarios ONT (esta parte del tutorial, aunque se explicará, no se ejecutara).
 
 ## Estructura del pipeline
 Este tutorial esta dividio en tres pasos principales (Figura 1):
