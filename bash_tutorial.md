@@ -47,6 +47,7 @@ Directorios completos se pueden crear con la opcion _-p_, así:
 mkdir -p /home/usr/foo/bla/
 ```
 Carpetas se pueden tambien crear en subdirectorios ya existentes, usando una direccion ya existente. Por ejemplo, crear 'bioinf' en '/home/usr/foo/bla/':
+
 ```bash 
 mkdir /home/usr/foo/bla/bioinf
 ```
@@ -82,6 +83,11 @@ Se usa para navigar archivos "no binarios", e.g.:
 
 ```bash
 less archivo.txt
+```
+Por ejempo, `less`puede ser utilizado para dar una mirada rapida a un archivo fastq, asi
+
+```bash
+cat /directorio/personal/Taller-Oxford-Nanopore-Dec-2022/NGSdat/CinchonaONT/NGSdat/Cinchona_PAD61320_sizeSelect_199.fastq
 ```
 
 ### 3.8. `man`
