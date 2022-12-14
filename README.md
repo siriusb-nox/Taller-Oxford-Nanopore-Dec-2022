@@ -7,7 +7,7 @@ Este repositorio contiene un tutorial guia para el analisis de datos crudos deri
 
 _Este tutorial esta dirigido a personas con un conocimiento basico en programación y esta diseñado para ejecutarse en ambientes UNIX. El participante idealmente debe tener experiencia en uso de terminales, y programas de manejo de archivos de texto como **awk, sed, grep, entre otros.**_ El taller se ejecutará en el servidor [Kabré](https://kabre.cenat.ac.cr/), o en computadores previamente configurados. 
 
-_Para aquellos usuarios con muy poca experiencia (o nula) en programación en ambientes UNIX, un breve tutorial se encuentra disponible aquí_. 
+_Para aquellos usuarios con muy poca experiencia (o nula) en programación en ambientes UNIX, un breve tutorial se encuentra disponible [aquí](https://github.com/siriusb-nox/Taller-Oxford-Nanopore-Dec-2022/blob/main/bash_tutorial.md)_. 
 
 Este tutorial requiere los siguientes programas (dependencias) para correr (es muy recomendable tener estos programas instalados antes de comenzar el tutorial). **Por favor cersiorarse de que las dependencias en que estos programas corren tambien estan disponibles**:
 1. [**NCBI blast:**](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download) Este programa permite la construcción de bases de datos blast, y la busqueda (alineamiento) de secuencias de ADN o AA (formato fasta) en bases de datos blast. 
