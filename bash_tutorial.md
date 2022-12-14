@@ -23,28 +23,31 @@ Aquí una breve lista de programas basicos de UNIX que utilizaremos con mucha fr
 "Change directory" se usa para cambiar de una carpeta/directorio a otro. Por ejemplo:
 
 ```bash
-$ cd
+cd
 ```
-Para subir una carpeta arriba, usar. Adicionalmente, 'cd' acpeta una direccion de directorio completa, p.ej:
+Para subir una carpeta arriba, usar. Adicionalmente, _cd_ acpeta una direccion de directorio completa, p.ej **/home/usr/etc**:
 ```bash
-$ cd ..
-$ cd /home/usr/etc
+cd ..
+cd /home/usr/etc
 ```
 
 ### b. `mkdir`
-Makes a new directory.  
+Crea nuevas carpetas.  
 ```bash
 mkdir dirname
 ```
-You can use this to create multiple directories at once within your current directory.
+Varias carpetas se pueden crear de manera simultanea, p.ej.:
 ```bash
-mkdir 1stDirectory 2ndDirectory 3rdDirectory
+mkdir carpeta1 carpeta2 carpeta3
 ```
-You can also use this to create parent directories at the same time. For instance, if you wanted a directory named 'project1' in another subdirectory at '/samples/bash/projects/', you could run:
+Directorios completos se pueden crear con la opcion _-p_, así:
 ```bash 
-mkdir /samples/bash/projects/project1
+mkdir -p /home/usr/foo/bla/
 ```
-If any of these directories did no already exist, they would be created as well.
+Carpetas se pueden tambien crear en subdirectorios ya existentes, usando una direccion ya existente. Por ejemplo, crear 'bioinf' en '/home/usr/foo/bla/':
+```bash 
+mkdir /home/usr/foo/bla/bioinf
+```
 
 ### c. `pwd`
 Tells you which directory you currently are in.  
