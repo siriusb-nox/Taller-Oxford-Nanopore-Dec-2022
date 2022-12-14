@@ -20,7 +20,7 @@ Este tutorial requiere los siguientes programas (dependencias) para correr (es m
 ## 2. Estructura del pipeline
 Este tutorial esta dividio en tres pasos principales (Figura 1):
 
-A. Analisis de la calidad de datos
+A. [Analisis de la calidad de datos](https://github.com/siriusb-nox/Taller-Oxford-Nanopore-Dec-2022/blob/main/A_NanoPlot.md)
 
 B. Corrección y recorte de los datos 
 
