@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/siriusb-nox/Taller-Oxford-Nanopore-Dec-2022/blob/main/IMG/bash_logo_bashlogo.com.png" alt="bash logo from bash webpage"/>
+</p>
+  
 ## Tutorial basico para navegar una terminal en ambientes UNIX
 
 #### 1. Introducción
