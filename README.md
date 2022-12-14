@@ -35,7 +35,7 @@ Para solicitar los modulos requeridos, ejecutar:
 `module load programa`
 
 e.g.:
-`module load blast+/2.11.0
+`module load blast+/2.11.0\n
 module load canu`
 
 Adicionalmente, los recursos necesarios para ejecutar programas tambien deberan ser solicitados bajo el mismo sistema SLURM.
