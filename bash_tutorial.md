@@ -84,12 +84,18 @@ Se usa para navigar archivos "no binarios", e.g.:
 ```bash
 less archivo.txt
 ```
-Por ejempo, `less`puede ser utilizado para dar una mirada rapida a un archivo fastq, asi
+Por ejempo, `less`puede ser utilizado para dar una mirada rapida a un archivo fastq, asi (archivo disponible en el tutorial, primero descomprimir usando `gunzip`):
 
 ```bash
-cat /directorio/personal/Taller-Oxford-Nanopore-Dec-2022/NGSdat/CinchonaONT/NGSdat/Cinchona_PAD61320_sizeSelect_199.fastq
+cat /directorio/personal/Taller-Oxford-Nanopore-Dec-2022/NGSdat/NGSdat/Cinchona_PAD61320_sizeSelect_1Kseq_99.fastq
 ```
 
+### d. `grep`
+Este programa busca patrones de texto, incluyendo _[expresiones regulares]_(https://sospedia.net/el-shell-bash-de-gnulinux-4-expresiones-regulares/). 
+
+```bash
+grep
+```
 ### 3.8. `man`
 Shows the manual for specified command.  
 ```bash
