@@ -11,4 +11,6 @@ Como resultado, el programa creara una gran cantidad de graficas en archivp .png
 
 Un ejemplo del output es el siguiente:
 
+<p align="center">
 ![Longitud vs Calidad de la secuencia](https://github.com/siriusb-nox/Taller-Oxford-Nanopore-Dec-2022/blob/main/IMG/LengthvsQualityScatterPlot_dot.png?raw=true)
+</p>
