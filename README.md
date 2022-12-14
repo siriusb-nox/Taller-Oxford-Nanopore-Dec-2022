@@ -1,5 +1,5 @@
 # Taller virtual "Principios del analisis de datos de secuencias de ADN derivadas de tecnologías Oxford Nanopore" - 15, 16 Diciembre 2022
-##### Organizadores: Oscar A. Pérez Escobar (Royal Botanic Gardens, Kew), Diego Bogarín (UCR) & Melania Fernandez (UCR)
+## Organizadores: Oscar A. Pérez Escobar (Royal Botanic Gardens, Kew), Diego Bogarín (UCR) & Melania Fernandez (UCR)
 ##### Instituciones patrocinadoras: Universidad de Costa Rica (UCR) - OAICE - Royal Botanic Gardens, Kew (RBG Kew) - Antonelli Lab
 
 ## Introducción
@@ -19,3 +19,4 @@ Este tutorial esta dividio en tres pasos principales (Figura 1):
 3. Operaciones de busqueda y/o ensamblado de genomas
 
 ![Figure 1](https://github.com/siriusb-nox/Taller-Oxford-Nanopore-Dec-2022/blob/main/IMG/pipeline_overview_v0_OP_14122022.png?raw=true)
+**Figura 1**: Vista simplificada del tutorial/pipeline
