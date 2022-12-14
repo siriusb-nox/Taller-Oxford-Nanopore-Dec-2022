@@ -6,3 +6,7 @@ En este tutorial, trabajaremos con el archivo de texto "sequencing_summary.txt" 
 ```bash
 NanoPlot --summary sequencing_summary.txt --loglength -o summary-plots-log-transformed
 ```
+
+Como resultado, el programa creara una gran cantidad de graficas en archivp .png mas una compilacion de las mismas en formato html. Estos archivos estaran depositados en una carpeta llamada "summary-plots-log-transformed" (disponibles [aqui](https://github.com/siriusb-nox/Taller-Oxford-Nanopore-Dec-2022/tree/main/NanoPlot/), carpeta comprimida en `gzip`).
+
+Un ejemplo del output es el siguiente:
