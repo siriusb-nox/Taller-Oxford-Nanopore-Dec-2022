@@ -27,7 +27,12 @@ C. Operaciones de busqueda y/o ensamblado de genomas
 ![Figure 1](https://github.com/siriusb-nox/Taller-Oxford-Nanopore-Dec-2022/blob/main/IMG/pipeline_overview_v0_OP_14122022.png?raw=true)
 **Figura 1**: Vista simplificada del tutorial/pipeline
 
+**IMPORTANTE:** Los datos base necesarios para ejectuar este tutorial estan disponibles en:
 
+```
+/directorio/personal/Taller-Oxford-Nanopore-Dec-2022/NGSdat/  # datos crudos de Cinchona y el organismo misterio (fastq)
+/directorio/personal/Taller-Oxford-Nanopore-Dec-2022/NanoPlot/ # datos para ejecutar NanoPlot (archivo de texto)
+```
 
 ## 2.1. Configuración del pipeline
 En cualquier pipeline de bioinformatica, es esencial relacionar de que programas depende el pipeline y saber donde estan los archivos input, etc. Para ejecutar este tutorial, se debe copiar este repositorio en un directorio de su escogencia. Para ello, favor ejecutar:
@@ -42,14 +47,14 @@ Para solicitar los modulos requeridos, ejecutar:
 
 Por ejemplo, para cargar los ejecutables de blast+ y canu, ejecutar:
 
-```
+```bash
 module load blast+/2.11.0
 module load canu
 ```
 
 Adicionalmente, los recursos necesarios para ejecutar programas tambien deberan ser solicitados bajo el mismo sistema SLURM. Un ejemplo basico de como solicitar recursos se provee aqui:
 
-```
+```bash
 #!/bin/bash
 #SBATCH --job-name=blast+
 #SBATCH --cpus-per-task=4
@@ -68,7 +73,7 @@ Adicionalmente, los recursos necesarios para ejecutar programas tambien deberan 
 
 Para el caso particular de mi ordenador, yo ejecuto este comando (_NO EJECUTAR_ - es solo un ejemplo!):
 
-```
+```bash
 # Canu
 PATH=$PATH:/home/siriusb/softwares/genomics/canu/canu-1.9/Linux-amd64/bin/
 # Racon 
