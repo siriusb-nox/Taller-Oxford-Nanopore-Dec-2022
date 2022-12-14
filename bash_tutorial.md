@@ -90,7 +90,7 @@ Por ejempo, `less`puede ser utilizado para dar una mirada rapida a un archivo fa
 cat /directorio/personal/Taller-Oxford-Nanopore-Dec-2022/NGSdat/NGSdat/Cinchona_PAD61320_sizeSelect_1Kseq_99.fastq
 ```
 
-### d. `grep`
+### 3.7 `grep`
 Este programa busca patrones de texto, incluyendo [_expresiones regulares_](https://sospedia.net/el-shell-bash-de-gnulinux-4-expresiones-regulares/). 
 
 ```bash
@@ -105,7 +105,7 @@ grep "^@7318713f-55b4-4e19-8fb1-4bd89b35568e" /directorio/personal/Taller-Oxford
 
 ... hay muchos otros programas mas que nos permiten visualizar datos que recomendamos aprender. Algunos ejemplos están disponibles [aqui](https://www.biostars.org/p/17680/).
 
-### 3.8. `man`
+### 3.8 `man`
 Este programa provee información detallada sobre programas basicos de UNIX.
 
 ```bash
