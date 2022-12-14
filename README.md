@@ -19,12 +19,15 @@ Este tutorial requiere los siguientes programas (dependencias) para correr (es m
 
 ## 2. Estructura del pipeline
 Este tutorial esta dividio en tres pasos principales (Figura 1):
+
 A. Analisis de la calidad de datos 
 B. Corrección y recorte de los datos 
 C. Operaciones de busqueda y/o ensamblado de genomas
 
 ![Figure 1](https://github.com/siriusb-nox/Taller-Oxford-Nanopore-Dec-2022/blob/main/IMG/pipeline_overview_v0_OP_14122022.png?raw=true)
 **Figura 1**: Vista simplificada del tutorial/pipeline
+
+
 
 ## 2.1. Configuración del pipeline
 En cualquier pipeline de bioinformatica, es esencial relacionar de que programas depende el pipeline y saber donde estan los archivos input, etc. Para ejecutar este tutorial, se debe copiar este repositorio en un directorio de su escogencia. Para ello, favor ejecutar:
