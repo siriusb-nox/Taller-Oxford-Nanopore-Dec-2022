@@ -25,7 +25,10 @@ Este tutorial esta dividio en tres pasos principales (Figura 1):
 **Figura 1**: Vista simplificada del tutorial/pipeline
 
 ## Configuración del pipeline
-Para ejecutar este tutorial, 
+Para ejecutar este tutorial, se debe copiar este repositorio en un directorio de su escogencia. Para ello, favor ejecutar
+
+`git clone https://github.com/siriusb-nox/Taller-Oxford-Nanopore-Dec-2022.git`
+
 En cualquier pipeline de bioinformatica, es esencial relacionar de que programas depende el pipeline. Para usuarios asociados a la Universidad de Costa Rica (UCR) y del Kabré, los programas estarán disponibles como modulos y deben ser solicitados usando el sistema SLURM. Pasos detallados de como conectarse al Kabre, como intercambiar datos entre un computador local y el servidor estan disponibles aqui: https://kabre.cenat.ac.cr/guia-usuario/
 
 
