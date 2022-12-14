@@ -3,7 +3,7 @@
 ##### Instituciones patrocinadoras: Universidad de Costa Rica (UCR) - OAICE - Royal Botanic Gardens, Kew (RBG Kew) - Antonelli Lab
 
 ## 1. Introducción
-Este repositorio contiene un tutorial guia para el analisis de datos crudos derivados de tecnologias Oxford Nanopore (ONT) y los pasos iniciales para conducir un ensamblado de genomas. Adicionalmente, incluye una demostración de como conducir busquedas de secuencias en una base de datos predeterminada usando ncbi blast. El tutorial esta en parte basado en datos generados por Canales et al. (2022, articulo disponible aqui: https://gigabytejournal.com/articles/71) usando un GridION (https://nanoporetech.com/products/gridion), los cuales se utilizaron para ensamblar el genoma nuclear del arbol de la quina (_Cinchona pubescens_, Rubiaceae). Para las demonstraciones con BLAST, se utilizaran algunos datos no publicados de un organismo misterio (!), producidos por Natalia Przelomska, Alexandre Antonelli, Diego Bogarín & Oscar A Pérez-Escobar).
+Este repositorio contiene un tutorial guia para el analisis de datos crudos derivados de tecnologias Oxford Nanopore (ONT) y los pasos iniciales para conducir un ensamblado de genomas. Adicionalmente, incluye una demostración de como conducir busquedas de secuencias en una base de datos predeterminada usando ncbi blast. El tutorial esta en parte basado en datos generados por Canales et al. (2022, articulo disponible [aqui:](https://gigabytejournal.com/articles/71) usando un GridION (https://nanoporetech.com/products/gridion), los cuales se utilizaron para ensamblar el genoma nuclear del arbol de la quina (_Cinchona pubescens_, Rubiaceae). Para las demonstraciones con BLAST, se utilizaran algunos datos no publicados de un organismo misterio (!), producidos por Natalia Przelomska, Alexandre Antonelli, Diego Bogarín & Oscar A Pérez-Escobar).
 
 _Este tutorial esta dirigido a personas con un conocimiento basico en programación y esta diseñado para ejecutarse en ambientes UNIX. El participante idealmente debe tener experiencia en uso de terminales, y programas de manejo de archivos de texto como **awk, sed, grep, entre otros.**_ El taller se ejecutará en el servidor Kabré (https://kabre.cenat.ac.cr/), o en computadores previamente configurados. 
 
@@ -17,9 +17,9 @@ Este tutorial requiere los siguientes programas (dependencias) para correr (es m
 
 ## 2. Estructura del pipeline
 Este tutorial esta dividio en tres pasos principales (Figura 1):
-1. Analisis de la calidad de datos 
-2. Corrección y recorte de los datos 
-3. Operaciones de busqueda y/o ensamblado de genomas
+A. Analisis de la calidad de datos 
+B. Corrección y recorte de los datos 
+C. Operaciones de busqueda y/o ensamblado de genomas
 
 ![Figure 1](https://github.com/siriusb-nox/Taller-Oxford-Nanopore-Dec-2022/blob/main/IMG/pipeline_overview_v0_OP_14122022.png?raw=true)
 **Figura 1**: Vista simplificada del tutorial/pipeline
@@ -79,7 +79,9 @@ PATH=$PATH:/home/siriusb/softwares/genomics/ncbi-blast-2.10.0+/bin/
 # SMARTdenovo
 PATH=$PATH:/home/siriusb/softwares/genomics/
 export PATH
-
 ```
+
+
+
 
 
