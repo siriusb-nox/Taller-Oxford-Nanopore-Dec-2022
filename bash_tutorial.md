@@ -26,6 +26,7 @@ Aquí una breve lista de programas basicos de UNIX que utilizaremos con mucha fr
 cd
 ```
 Para subir una carpeta arriba, usar. Adicionalmente, _cd_ acpeta una direccion de directorio completa, p.ej **/home/usr/etc**:
+
 ```bash
 cd ..
 cd /home/usr/etc
@@ -33,6 +34,7 @@ cd /home/usr/etc
 
 ### b. `mkdir`
 Crea nuevas carpetas.  
+
 ```bash
 mkdir dirname
 ```
