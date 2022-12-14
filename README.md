@@ -1,6 +1,8 @@
 # Taller virtual "Principios del analisis de datos de secuencias de ADN derivadas de tecnologías Oxford Nanopore" - 15, 16 Diciembre 2022
-## Organizadores: Oscar A. Pérez Escobar (Royal Botanic Gardens, Kew), Diego Bogarín (UCR) & Melania Fernandez (UCR)
-##### Instituciones patrocinadoras: Universidad de Costa Rica (UCR) - OAICE - Royal Botanic Gardens, Kew (RBG Kew) - Antonelli Lab
+## Instructor: [Oscar A. Pérez Escobar (Royal Botanic Gardens, Kew)](https://www.tropicalphylodiv.com/) - [google scholar](https://scholar.google.co.uk/citations?user=tSzyp6QAAAAJ&hl=en)
+## Organizadores: [Diego Bogarín (UCR)](https://www.researchgate.net/profile/Diego-Bogarin-2) & [Melania Fernandez (UCR)](https://www.researchgate.net/profile/Melania-Fernandez)
+## Contribuyentes: [Natalia Przelomska (RBG Kew)](https://www.kew.org/science/our-science/people/natalia-przelomska), [Alexandre Antonelli (RBG Kew, GU)](https://www.kew.org/science/our-science/people/alexandre-antonelli)
+##### Instituciones patrocinadoras: Universidad de Costa Rica (UCR) - OAICE - Royal Botanic Gardens, Kew (RBG Kew) - Antonelli Lab (RGB Kew, Gothenburg University - GU)
 
 ## 1. Introducción
 Este repositorio contiene un tutorial guia para el analisis de datos crudos derivados de tecnologias Oxford Nanopore (ONT) y los pasos iniciales para conducir un ensamblado de genomas. Adicionalmente, incluye una demostración de como conducir busquedas de secuencias en una base de datos predeterminada usando ncbi blast. El tutorial esta en parte basado en datos generados por Canales et al. (2022, articulo disponible [aqui](https://gigabytejournal.com/articles/71), usando un [GridION](https://nanoporetech.com/products/gridion), los cuales se utilizaron para ensamblar el genoma nuclear del arbol de la quina (_Cinchona pubescens_, Rubiaceae). Para las demonstraciones con BLAST, se utilizaran algunos datos no publicados de un organismo misterio (!), producidos por Natalia Przelomska, Alexandre Antonelli, Diego Bogarín & Oscar A Pérez-Escobar).
