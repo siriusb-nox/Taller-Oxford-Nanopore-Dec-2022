@@ -32,9 +32,11 @@ Para ejecutar este tutorial, se debe copiar este repositorio en un directorio de
 En cualquier pipeline de bioinformatica, es esencial relacionar de que programas depende el pipeline. Para usuarios asociados a la Universidad de Costa Rica (UCR) y del Kabré, los programas estarán disponibles como modulos y deben ser llamados usando el sistema SLURM. Pasos detallados de como conectarse al Kabre, como intercambiar datos entre un computador local y el servidor, como solicitar recursos y modulos/programas estan disponibles aqui: https://kabre.cenat.ac.cr/guia-usuario/. 
 
 Para solicitar los modulos requeridos, ejecutar:
+
 `module load programa`
 
-e.g.:
+Por ejemplo, para cargar los ejecutables de blast+ y canu, ejecutar:
+
 `module load blast+/2.11.0`
 
 `module load canu`
