@@ -59,9 +59,9 @@ Adicionalmente, los recursos necesarios para ejecutar programas tambien deberan 
 
 **Para usuarios con los programas instalados en un ambiente UNIX en computadoras personales**, estos se pueden introducir en la sesión actual (terminal) usando el siguiente comando, por ejemplo:
 
-`PATH=$PATH:/directorio/de/la/carpeta/programax``
+`PATH=$PATH:/directorio/de/la/carpeta/programax`
 
-
+Para el caso particular de mi ordenador, yo ejecuto este comando (_NO EJECUTAR_ - es solo un ejemplo!):
 
 ```
 # Canu
