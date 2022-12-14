@@ -25,3 +25,5 @@ Este tutorial esta dividio en tres pasos principales (Figura 1):
 **Figura 1**: Vista simplificada del tutorial/pipeline
 
 ## Configuración del pipeline
+En cualquier pipeline de bioinformatica, es esencial relacionar de que programas depende el pipeline. Para usuarios asociados a la Universidad de Costa Rica (UCR) y del Kabré (https://kabre.cenat.ac.cr/), los programas estarán disponibles como modulos y deben ser solicitados usando el sistema SLURM. 
+
