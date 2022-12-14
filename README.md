@@ -4,9 +4,10 @@
 
 ## Introducción
 Este repositorio contiene un tutorial guia para el analisis de datos crudos derivados de tecnologias Oxford Nanopore (ONT) y los pasos iniciales para conducir un ensamblado de genomas. Adicionalmente, incluye una demostración de como conducir busquedas de secuencias en una base de datos predeterminada usando ncbi blast. El tutorial esta en parte basado en datos generados por Canales et al. (2022, articulo disponible aqui: https://gigabytejournal.com/articles/71), los cuales se utilizaron para ensamblar el genoma nuclear del arbol de la quina (_Cinchona pubescens_, Rubiaceae). 
+
 _Este tutorial esta dirigido a personas con un conocimiento basico en programación y esta diseñado para ejecutarse en ambientes UNIX. El participante idealmente debe tener experiencia en uso de terminales, y programas de manejo de archivos de texto como **awk, sed, grep, entre otros.**_ 
 
-Este tutorial requiere los siguientes programas (dependencias) para correr:
+Este tutorial requiere los siguientes programas (dependencias) para correr (es muy recomendable tener estos programas instalados antes de comenzar el tutorial):
 1. **NCBI blast** (https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download): Este programa permite la construcción de bases de datos blast, y la busqueda (alineamiento) de secuencias de ADN o AA (formato fasta) en bases de datos blast. 
 2. **NCBI magicblast** (https://ncbi.github.io/magicblast/doc/download.html): Este programa permite la busqueda de secuencias de ADN derivadas de secuenciación masiva (formato fasta o fastq) en bases de datos blast.
 3. **CANU** (https://github.com/marbl/canu): este programa permite la corrección y filtrado de secuencias de ONT/PacBio.  
