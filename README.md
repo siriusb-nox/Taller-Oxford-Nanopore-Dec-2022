@@ -5,7 +5,7 @@
 ## Introducción
 Este repositorio contiene un tutorial guia para el analisis de datos crudos derivados de tecnologias Oxford Nanopore (ONT) y los pasos iniciales para conducir un ensamblado de genomas. Adicionalmente, incluye una demostración de como conducir busquedas de secuencias en una base de datos predeterminada usando ncbi blast. El tutorial esta en parte basado en datos generados por Canales et al. (2022, articulo disponible aqui: https://gigabytejournal.com/articles/71) usando un GridION (https://nanoporetech.com/products/gridion), los cuales se utilizaron para ensamblar el genoma nuclear del arbol de la quina (_Cinchona pubescens_, Rubiaceae). Para las demonstraciones con BLAST, se utilizaran algunos datos no publicados de un organismo misterio (!), producidos por Natalia Przelomska, Alexandre Antonelli, Diego Bpgarín & Oscar A Pérez-Escobar).
 
-_Este tutorial esta dirigido a personas con un conocimiento basico en programación y esta diseñado para ejecutarse en ambientes UNIX. El participante idealmente debe tener experiencia en uso de terminales, y programas de manejo de archivos de texto como **awk, sed, grep, entre otros.**_ 
+_Este tutorial esta dirigido a personas con un conocimiento basico en programación y esta diseñado para ejecutarse en ambientes UNIX. El participante idealmente debe tener experiencia en uso de terminales, y programas de manejo de archivos de texto como **awk, sed, grep, entre otros.**_ El taller se ejecutará en el servidor Kabré (https://kabre.cenat.ac.cr/), o en computadores previamente configurados. 
 
 Este tutorial requiere los siguientes programas (dependencias) para correr (es muy recomendable tener estos programas instalados antes de comenzar el tutorial):
 1. **NCBI blast** (https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download): Este programa permite la construcción de bases de datos blast, y la busqueda (alineamiento) de secuencias de ADN o AA (formato fasta) en bases de datos blast. 
@@ -25,5 +25,8 @@ Este tutorial esta dividio en tres pasos principales (Figura 1):
 **Figura 1**: Vista simplificada del tutorial/pipeline
 
 ## Configuración del pipeline
-En cualquier pipeline de bioinformatica, es esencial relacionar de que programas depende el pipeline. Para usuarios asociados a la Universidad de Costa Rica (UCR) y del Kabré (https://kabre.cenat.ac.cr/), los programas estarán disponibles como modulos y deben ser solicitados usando el sistema SLURM. 
+Para ejecutar este tutorial, 
+En cualquier pipeline de bioinformatica, es esencial relacionar de que programas depende el pipeline. Para usuarios asociados a la Universidad de Costa Rica (UCR) y del Kabré, los programas estarán disponibles como modulos y deben ser solicitados usando el sistema SLURM. Pasos detallados de como conectarse al Kabre, como intercambiar datos entre un computador local y el servidor estan disponibles aqui: https://kabre.cenat.ac.cr/guia-usuario/
+
+
 
