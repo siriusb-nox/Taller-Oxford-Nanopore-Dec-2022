@@ -29,7 +29,14 @@ Para ejecutar este tutorial, se debe copiar este repositorio en un directorio de
 
 `git clone https://github.com/siriusb-nox/Taller-Oxford-Nanopore-Dec-2022.git`
 
-En cualquier pipeline de bioinformatica, es esencial relacionar de que programas depende el pipeline. Para usuarios asociados a la Universidad de Costa Rica (UCR) y del Kabré, los programas estarán disponibles como modulos y deben ser solicitados usando el sistema SLURM. Pasos detallados de como conectarse al Kabre, como intercambiar datos entre un computador local y el servidor estan disponibles aqui: https://kabre.cenat.ac.cr/guia-usuario/
+En cualquier pipeline de bioinformatica, es esencial relacionar de que programas depende el pipeline. Para usuarios asociados a la Universidad de Costa Rica (UCR) y del Kabré, los programas estarán disponibles como modulos y deben ser llamados usando el sistema SLURM. Pasos detallados de como conectarse al Kabre, como intercambiar datos entre un computador local y el servidor, como solicitar recursos y modulos/programas estan disponibles aqui: https://kabre.cenat.ac.cr/guia-usuario/. 
 
+Para solicitar los modulos requeridos, ejecutar:
+`module load **programa**`
+e.g.:
+`module load blast+/2.11.0`
+`module load canu`
+
+Adicionalmente, los recursos necesarios para ejecutar programas tambien deberan ser solicitados bajo el mismo sistema SLURM.
 
 
