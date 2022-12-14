@@ -103,8 +103,12 @@ Por ejemplo, podemos buscar el nombre de una secuencia ("@7318713f-55b4-4e19-8fb
 grep "^@7318713f-55b4-4e19-8fb1-4bd89b35568e" /directorio/personal/Taller-Oxford-Nanopore-Dec-2022/NGSdat/NGSdat/Cinchona_PAD61320_sizeSelect_1Kseq_99.fastq
 ```
 
+... hay muchos otros programas mas que nos permiten visualizar datos que recomendamos aprender. Algunos ejemplos están disponibles [aqui](https://www.biostars.org/p/17680/).
+
 ### 3.8. `man`
-Shows the manual for specified command.  
+Este programa provee información detallada sobre programas basicos de UNIX.
+
 ```bash
-man command
+man programa
+man ls
 ```
