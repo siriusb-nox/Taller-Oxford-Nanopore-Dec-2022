@@ -10,8 +10,7 @@ La sintaxis de UNIX en la terminal es muy facil. En cualquier momento que en la 
 
 Las opciones en UNIX son usualmente parametros (en ingles _flags_) que permiten modificar el comportamiento usual/default  de un programa. Estas usualmente se especifican con un "-", Por ejemplo: 
 
-`ls` vs `ls -lrt`
-
+`ls` vs `ls -lrt` - Cual es la diferencia entre ambos comandos?
 
 #### 3. Programas esenciales para navegar la terminal en UNIX e interactuar/visualizar archivos
-
+Aquí una breve lista de programas basicos de UNIX que utilizaremos con mucha frequencia
