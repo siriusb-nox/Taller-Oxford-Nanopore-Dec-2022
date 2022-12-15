@@ -21,6 +21,7 @@ Esta grafica nos indica como esta distribuida la longitud de las secuencias de A
  <img src="https://github.com/siriusb-nox/Taller-Oxford-Nanopore-Dec-2022/blob/main/IMG/GC_qual_bias_ONT_Delahaye_Nicolas_2021_PLoSONE.png" alt="GC content and quality bias in ONT data"/>
 </p>
 
+**Fig 4.** Global error rates of reads according to their GC content. GC contents were grouped by integer value. Only values supported by at least n reads were plotted. For each species the mean error rate is computed, and the median on all this values is displayed. A: Results for bacterial data, n = 100. Low-GC species have lower global error rates than high-GC ones (tomado de Delahaye & Nicolas 2021, PLoSONE).
 
 Este otro grafico nos muestra la cantidad de secuencias producidas vs su longitud:
 
