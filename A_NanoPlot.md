@@ -15,7 +15,7 @@ Un ejemplo del output es el siguiente:
  <img src="https://github.com/siriusb-nox/Taller-Oxford-Nanopore-Dec-2022/blob/main/IMG/LengthvsQualityScatterPlot_dot.png" alt="Longitud vs Calidad de la secuencia"/>
 </p>
 
-Esta grafica nos indica como esta distribuida la longitud de las secuencias de ADN producida por ONT vs su calidad (expresada en valores similares a los [Phred]:(https://en.wikipedia.org/wiki/Phred_quality_score)). Una cosa interesante es ver la buena cantidad de secuencias que tienen valores inferiores a Phred 10 (i.e., prob de 1 en 10 nucleotidos de ser llamados incorrectamente). 
+Esta grafica nos indica como esta distribuida la longitud de las secuencias de ADN producida por ONT vs su calidad (expresada en valores similares a los [Phred]:(https://en.wikipedia.org/wiki/Phred_quality_score)). Una cosa interesante es ver la buena cantidad de secuencias que tienen valores inferiores a Phred 10 (i.e., prob de 1 en 10 nucleotidos de ser llamados incorrectamente). De paso, hay ciertas regiones del genoma que son mas dificiles de secuenciar ([low complexity regions](https://academic.oup.com/nar/article/32/suppl_2/W628/1040725)), y ONT va a tender a producir datos de secuencias de estas regiones con menores calidades (i.e., mayor probabilidad de bases mal llamadas, ver seccion "literatura recomendada").  
 
 Este otro grafico nos muestra la cantidad de secuencias producidas vs su longitud:
 
@@ -61,3 +61,4 @@ El reporte completo de un experimento de secuenciación conducido usando el ADN 
 
 ## Literatura recomendada
 1. Delahaye C, Nicolas J. 2021. Sequencing DNA with nanopores: troubles and biases. PLoS ONE https://doi.org/10.1371/journal.pone.0257521
+2. Orlov YL, Potapov VN. 2004. Complexity: an internet resource for analysis of DNA sequence complexity. Nuc. Ac. Res. 32 https://doi.org/10.1093%2Fnar%2Fgkh466
