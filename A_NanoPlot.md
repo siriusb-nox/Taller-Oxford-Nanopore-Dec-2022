@@ -15,7 +15,12 @@ Un ejemplo del output es el siguiente:
  <img src="https://github.com/siriusb-nox/Taller-Oxford-Nanopore-Dec-2022/blob/main/IMG/LengthvsQualityScatterPlot_dot.png" alt="Longitud vs Calidad de la secuencia"/>
 </p>
 
-Esta grafica nos indica como esta distribuida la longitud de las secuencias de ADN producida por ONT vs su calidad (expresada en valores similares a los [Phred]:(https://en.wikipedia.org/wiki/Phred_quality_score)). Una cosa interesante es ver la buena cantidad de secuencias que tienen valores inferiores a Phred 10 (i.e., prob de 1 en 10 nucleotidos de ser llamados incorrectamente). De paso, hay ciertas regiones del genoma que son mas dificiles de secuenciar ([low complexity regions](https://academic.oup.com/nar/article/32/suppl_2/W628/1040725)), y ONT va a tender a producir datos de secuencias de estas regiones con menores calidades (i.e., mayor probabilidad de bases mal llamadas, ver seccion "literatura recomendada").  
+Esta grafica nos indica como esta distribuida la longitud de las secuencias de ADN producida por ONT vs su calidad (expresada en valores similares a los [Phred]:(https://en.wikipedia.org/wiki/Phred_quality_score)). Una cosa interesante es ver la buena cantidad de secuencias que tienen valores inferiores a Phred 10 (i.e., prob de 1 en 10 nucleotidos de ser llamados incorrectamente). De paso, hay ciertas regiones del genoma que son mas dificiles de secuenciar ([low complexity regions](https://academic.oup.com/nar/article/32/suppl_2/W628/1040725)), y ONT va a tender a producir datos de secuencias de estas regiones con menores calidades (i.e., mayor probabilidad de bases mal llamadas, ver seccion **literatura recomendada**) si dichas regiones estan asociadas a altos contendiso de GC, p.ej.:
+
+<p align="center">
+ <img src="https://github.com/siriusb-nox/Taller-Oxford-Nanopore-Dec-2022/blob/main/IMG/GC_qual_bias_ONT_Delahaye_Nicolas_2021_PLoSONE.png" alt="GC content and quality bias in ONT data"/>
+</p>
+
 
 Este otro grafico nos muestra la cantidad de secuencias producidas vs su longitud:
 
