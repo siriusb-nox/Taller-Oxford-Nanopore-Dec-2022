@@ -87,7 +87,7 @@ less input.txt
 Por ejempo, `less`puede ser utilizado para dar una mirada rapida a un archivo fastq, asi (archivo disponible en el tutorial, primero descomprimir usando `gunzip`):
 
 ```bash
-cat /directorio/personal/Taller-Oxford-Nanopore-Dec-2022/NGSdat/NGSdat/Cinchona_PAD61320_sizeSelect_1Kseq_99.fastq
+cat /directorio/personal/Taller-Oxford-Nanopore-Dec-2022/NGSdat/Cinchona_PAD61320_sizeSelect_1Kseq_99.fastq
 ```
 
 ### 3.7 `grep`
