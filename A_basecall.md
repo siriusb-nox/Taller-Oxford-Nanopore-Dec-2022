@@ -48,3 +48,8 @@ Finishing up any open output files.
 Basecalling completed successfully.
 ```
 A parte de producir los archivos fastq, `guppy`tambien produce una serie de reportes, entre ellos una compilacion de estadisticas de secuenciación en formato html. Un ejemplo se puede ver [aqui](http://htmlpreview.github.io/?https://github.com/siriusb-nox/Taller-Oxford-Nanopore-Dec-2022/blob/main/guppy/report_FAU10861_20221116_1415_944237d8.html)
+
+<p align="center">
+ <img src="https://github.com/siriusb-nox/Taller-Oxford-Nanopore-Dec-2022/blob/main/IMG/guppy_report_example.png" alt="A section of a guppy report on a seq experiment"/>
+</p>
+
