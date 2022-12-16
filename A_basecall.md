@@ -15,5 +15,6 @@ Donde:
 -s # indica el directorio para guardar los outputs del analisis
 -c # indica el modelo para llamar las bases (dna_r9.4.1_e8.1_hac.cfg es uno de los modelos con mayor precision)
 -x # activa la opcion de deteccion automatica de que dispositivo GPU esta disponible en el computador
+--min_qscore 10 # excluira cualquier secuencia de ADN con un valor de calidad menor a 10 
 ```
 Una idea de que tantos recursos GPU consumen diferentes modelos de llamado de bases esta disponible [aqui](https://esr-nz.github.io/gpu_basecalling_testing/gpu_benchmarking.html#cfg_files).
