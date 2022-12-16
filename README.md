@@ -28,7 +28,7 @@ B. Corrección y recorte de los datos
 
 C. Operaciones de busqueda y/o ensamblado de genomas
 
-![Figure 1](https://github.com/siriusb-nox/Taller-Oxford-Nanopore-Dec-2022/blob/main/IMG/pipeline_overview_v0_OP_14122022.png?raw=true)
+![Figure 1](https://github.com/siriusb-nox/Taller-Oxford-Nanopore-Dec-2022/blob/main/IMG/pipeline_overview_v0_OP_15122022.png?raw=true)
 **Figura 1**: Vista simplificada del tutorial/pipeline
 
 **IMPORTANTE:** Los datos base necesarios para ejectuar este tutorial estan disponibles en:
