@@ -26,7 +26,7 @@ A. [**Llamado de bases**](https://github.com/siriusb-nox/Taller-Oxford-Nanopore-
 
 B. [**Analisis de la calidad de datos**](https://github.com/siriusb-nox/Taller-Oxford-Nanopore-Dec-2022/blob/main/B_NanoPlot.md)
 
-C. Corrección y recorte de los datos 
+C. [**Corrección y recorte de los datos**](https://github.com/siriusb-nox/Taller-Oxford-Nanopore-Dec-2022/blob/main/C_read_corrtrim_CANU.md)
 
 D. Operaciones de busqueda y/o ensamblado de genomas
 
