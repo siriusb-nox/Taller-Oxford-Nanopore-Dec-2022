@@ -28,7 +28,7 @@ B. [**Analisis de la calidad de datos**](https://github.com/siriusb-nox/Taller-O
 
 C. [**Corrección y recorte de los datos**](https://github.com/siriusb-nox/Taller-Oxford-Nanopore-Dec-2022/blob/main/C_read_corrtrim_CANU.md)
 
-D. Operaciones de busqueda y/o ensamblado de genomas
+D. [Operaciones de busqueda y/o ensamblado de genomas](https://github.com/siriusb-nox/Taller-Oxford-Nanopore-Dec-2022/blob/main/D_blast.md)
 
 ![Figure 1](https://github.com/siriusb-nox/Taller-Oxford-Nanopore-Dec-2022/blob/main/IMG/pipeline_overview_v0_OP_15122022.png?raw=true)
 **Figura 1**: Vista simplificada del tutorial/pipeline
@@ -97,6 +97,7 @@ PATH=$PATH:/home/siriusb/softwares/genomics/
 export PATH
 ```
 ## AGRADECIMIENTOS
+Natalia Przelomska y Alexandre Antonelli produjeron datos no publicados. Ilia Letich procuro datos de sequencia de OT para Cinchona
 
 
 
