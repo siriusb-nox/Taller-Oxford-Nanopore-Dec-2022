@@ -24,7 +24,7 @@ Este tutorial esta dividio en tres pasos principales (Figura 1):
 
 A. [Llamado de bases]()
 
-B. [**Analisis de la calidad de datos**](https://github.com/siriusb-nox/Taller-Oxford-Nanopore-Dec-2022/blob/main/A_NanoPlot.md)
+B. [**Analisis de la calidad de datos**](https://github.com/siriusb-nox/Taller-Oxford-Nanopore-Dec-2022/blob/main/B_NanoPlot.md)
 
 C. Corrección y recorte de los datos 
 
