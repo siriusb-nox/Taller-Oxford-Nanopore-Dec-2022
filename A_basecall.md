@@ -47,3 +47,4 @@ Caller time: 12227895 ms, Samples called: 117512178322, samples/s: 9.61017e+06
 Finishing up any open output files.
 Basecalling completed successfully.
 ```
+A parte de producir los archivos fastq, `guppy`tambien produce una serie de reportes, entre ellos una compilacion de estadisticas de secuenciación en formato html. Un ejemplo se puede ver [aqui](http://htmlpreview.github.io/?https://github.com/siriusb-nox/Taller-Oxford-Nanopore-Dec-2022/blob/main/guppy/report_FAU10861_20221116_1415_944237d8.html)
