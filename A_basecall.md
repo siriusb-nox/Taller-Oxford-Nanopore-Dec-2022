@@ -17,4 +17,33 @@ Donde:
 -x # activa la opcion de deteccion automatica de que dispositivo GPU esta disponible en el computador
 --min_qscore 10 # excluira cualquier secuencia de ADN con un valor de calidad menor a 10 
 ```
-Una idea de que tantos recursos GPU consumen diferentes modelos de llamado de bases esta disponible [aqui](https://esr-nz.github.io/gpu_basecalling_testing/gpu_benchmarking.html#cfg_files).
+Una idea de que tantos recursos GPU/CPU consumen diferentes modelos de llamado de bases esta disponible [aqui](https://esr-nz.github.io/gpu_basecalling_testing/gpu_benchmarking.html#cfg_files).
+
+Un mensaje de ejecución exitosa de `guppy` se ve asi:
+
+```bash
+usuario@maquina:/home/ningunopudoconel/Downloads/software/guppy/ont-guppy/bin/guppy_basecaller -s . -c dna_r9.4.1_e8.1_hac.cfg --compress_fastq --trim_adapters -x auto --min_qscore 10
+ONT Guppy basecalling software version 3.1.5+781ed57
+config file:        /home/ningunopudoconel/Downloads/software/guppy/ont-guppy/data/dna_r9.4.1_450bps_hac.cfg
+model file:         /home/ningunopudoconel/Downloads/software/guppy/ont-guppy/data/template_r9.4.1_450bps_hac.jsn
+input path:         raw_data/
+save path:          HeredianoGenome_basecalled_20190621_hac/
+chunk size:         1000
+chunks per runner:  1000
+records per file:   4000
+fastq compression:  ON
+num basecallers:    4
+gpu device:         cuda:0
+kernel path:
+runners per device: 2
+
+Found 1215050 fast5 files to process.
+Init time: 12755 ms
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+Caller time: 12227895 ms, Samples called: 117512178322, samples/s: 9.61017e+06
+Finishing up any open output files.
+Basecalling completed successfully.
+```
