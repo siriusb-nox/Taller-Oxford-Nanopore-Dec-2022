@@ -5,8 +5,9 @@ En esta ultima seccion, haremos una demostración de como utilizar datos de ONT 
 ```bash
 makeblastdb -in refgenomes_org.test.fasta -out refgenomes_org.test_refDB -parse_seqids -dbtype nucl
 
- magicblast -query archivo_fastq -db refgenomes_org.test_refDB -out ab.out -outfmt tabular -no_unaligned -infmt fastq
+magicblast -query archivo_fastq -db refgenomes_org.test_refDB -out ab.out -outfmt tabular -no_unaligned -infmt fastq
 ```
+
 Pero tambien ejectuaremos busquedas en NCBI (nu dbase) de manera remota (**importante tener acceso a un NCBI API KEY, accessible desde la cuenta individual NCBI de cada uno**):
 
 ```bash
@@ -21,3 +22,4 @@ Por ultimo, ensamblar genomas con datos ONT ya corregidos es bastante sencillo, 
 
 make -f *.mak
 ```
+Los archivos base para ejecutar este comando se encuentran en la caperta [NGSdat](https://github.com/siriusb-nox/Taller-Oxford-Nanopore-Dec-2022/tree/main/NGSdat) de este repositorio.
