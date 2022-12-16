@@ -22,4 +22,4 @@ Por ultimo, ensamblar genomas con datos ONT ya corregidos es bastante sencillo, 
 
 make -f *.mak
 ```
-Los archivos base para ejecutar este comando se encuentran en la caperta [NGSdat](https://github.com/siriusb-nox/Taller-Oxford-Nanopore-Dec-2022/tree/main/NGSdat) de este repositorio.
+Los archivos base para ejecutar este comando se encuentran en la caperta [NGSdat](https://github.com/siriusb-nox/Taller-Oxford-Nanopore-Dec-2022/tree/main/NGSdat) de este repositorio. **Adicionalmente, favor descargar los archivos fasta disponibles en esta liga:** https://drive.google.com/drive/folders/1zTgYw0CjRzhMqDqoMHpDEdq21G8P1ARv?usp=share_link
