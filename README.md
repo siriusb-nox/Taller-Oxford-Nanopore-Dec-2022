@@ -22,11 +22,13 @@ Este tutorial requiere los siguientes programas (dependencias) para correr (es m
 ## 2. Estructura del pipeline
 Este tutorial esta dividio en tres pasos principales (Figura 1):
 
-A. [**Analisis de la calidad de datos**](https://github.com/siriusb-nox/Taller-Oxford-Nanopore-Dec-2022/blob/main/A_NanoPlot.md)
+A. [Llamado de bases]()
 
-B. Corrección y recorte de los datos 
+B. [**Analisis de la calidad de datos**](https://github.com/siriusb-nox/Taller-Oxford-Nanopore-Dec-2022/blob/main/A_NanoPlot.md)
 
-C. Operaciones de busqueda y/o ensamblado de genomas
+C. Corrección y recorte de los datos 
+
+D. Operaciones de busqueda y/o ensamblado de genomas
 
 ![Figure 1](https://github.com/siriusb-nox/Taller-Oxford-Nanopore-Dec-2022/blob/main/IMG/pipeline_overview_v0_OP_15122022.png?raw=true)
 **Figura 1**: Vista simplificada del tutorial/pipeline
