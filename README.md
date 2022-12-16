@@ -22,7 +22,7 @@ Este tutorial requiere los siguientes programas (dependencias) para correr (es m
 ## 2. Estructura del pipeline
 Este tutorial esta dividio en tres pasos principales (Figura 1):
 
-A. [Llamado de bases]()
+A. [**Llamado de bases**](https://github.com/siriusb-nox/Taller-Oxford-Nanopore-Dec-2022/edit/main/A_basecall.md)
 
 B. [**Analisis de la calidad de datos**](https://github.com/siriusb-nox/Taller-Oxford-Nanopore-Dec-2022/blob/main/B_NanoPlot.md)
 
