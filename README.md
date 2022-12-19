@@ -97,7 +97,7 @@ PATH=$PATH:/home/siriusb/softwares/genomics/
 export PATH
 ```
 ## AGRADECIMIENTOS
-Natalia Przelomska y Alexandre Antonelli produjeron datos no publicados. Ilia Letich procuro datos de sequencia de OT para Cinchona
+Natalia Przelomska y Alexandre Antonelli produjeron datos no publicados. Ilia Leitch procuro datos de sequencias de ONT para Cinchona
 
 
 
