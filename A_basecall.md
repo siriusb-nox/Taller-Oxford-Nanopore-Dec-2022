@@ -52,4 +52,3 @@ A parte de producir los archivos fastq, `guppy`tambien produce una serie de repo
 <p align="center">
  <img src="https://github.com/siriusb-nox/Taller-Oxford-Nanopore-Dec-2022/blob/main/IMG/guppy_report_example.png" alt="A section of a guppy report on a seq experiment"/>
 </p>
-
